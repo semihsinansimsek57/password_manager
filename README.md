@@ -1,10 +1,7 @@
 # Password Manager
 
-## Description
 
 This project is a secure and efficient password manager written in Python. It allows users to store, retrieve, delete, list, and change passwords for various services. The passwords are securely encrypted and stored in a SQLite database, and the application supports multi-factor authentication (MFA) for enhanced security.
-
-#### Video Demo:
 
 ## Features
 
@@ -125,7 +122,6 @@ Contributions are welcome! Please follow these steps to contribute:
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0. See the `LICENSE` file for more details.
 
 ## Acknowledgements
 
@@ -138,4 +134,3 @@ This project is licensed under the GNU General Public License v3.0. See the `LIC
 
 ## Contact
 
-For any questions or issues, please open an issue on the GitHub repository or contact the maintainer at [semihsinansimsek57@gmail.com].
