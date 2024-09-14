@@ -139,6 +139,3 @@ This project is licensed under the GNU General Public License v3.0. See the `LIC
 ## Contact
 
 For any questions or issues, please open an issue on the GitHub repository or contact the maintainer at [semihsinansimsek57@gmail.com].
-```
-
-This `README.md` file provides a comprehensive overview of the project, including installation instructions, usage examples, security features, and contribution guidelines.
