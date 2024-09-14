@@ -1,0 +1,12 @@
+argparse
+colorama
+pysqlcipher3
+cryptography
+bcrypt
+pyotp
+qrcode
+Pillow
+bandit
+safety
+pytest
+authenticator
