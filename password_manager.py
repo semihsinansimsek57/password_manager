@@ -12,10 +12,10 @@ from database import Database
 from utils import generate_key, encrypt_password, decrypt_password, is_strong_password, secure_erase, set_permissions
 import authenticator
 import qrcode
-from PIL import Image
+from PIL import Image # type: ignore
 import io
 import re
-from colorama import Fore, Style
+from colorama import Fore, Style # type: ignore
 
 class PasswordManager:
     def __init__(self, iterations=200000):
@@ -165,7 +165,7 @@ class PasswordManager:
                 raise ValueError(Fore.RED + "Invalid service name.")
         elif input_type == "username":
             # Username can contain letters, numbers, periods, underscores, and hyphens, also it could be an email address
-            if not re.match(r"^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$", input_value):
+            if not re.match(r"^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$", input_value) and not re.match(r"^[a-zA-Z0-9._-]+$", input_value):
                 raise ValueError(Fore.RED + "Invalid username.")
         elif input_type == "password":
             if not is_strong_password(input_value):
